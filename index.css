@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(224, 224, 186);
+    position: relative;
+
+    img {
+        width: 100px;
+        margin: 15px 0 0 15px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    section {
+        display: inline-block;
+        background-color: orange;
+        width: 100px;
+        padding: 12px;
+        margin: 0px 5px;
+        position: absolute;
+        right: 40px;
+        bottom: 35px;
+        z-index: 2;   
+    }
+    
+    #molestos1 {
+        right: 150px;
+    }
+}
+
+
+main {
+    position: relative;
+    min-height: 70vh;
+    background-color: rgb(230, 230, 230);
+     
+    aside {
+        border: 0.1px solid rgb(52,52,52);
+        min-height: 100%;
+        width: 30%;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+
+        h2 {
+            text-align: center;
+        }
+    }
+
+    section {
+        border: 0.1px solid rgb(52,52,52);
+        min-height: 100%;
+        width: 70%;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+
+        h1 {
+            text-align: center;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        video {
+            width: 60%;
+        }
+    }
+}
+
+footer {
+    min-height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+
+    section {
+        display: inline-block;
+        p {
+            color: rgb(224, 224, 224);
+        }
+    }
+
+    #s1 {
+        margin-left: 20px;
+    }
+
+    #s2 {
+        position: absolute;
+        bottom: 1px;
+        right: 30px;
+        bottom: 10px;
+    }
+}
